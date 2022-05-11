@@ -1,0 +1,18 @@
+.indexBody {
+    width: 60%;
+    margin: 4vh auto;
+}
+
+.indexBody h1 {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.indexBody p {
+    text-align: center;
+}
+
+.indexBody p a {
+    font-size: 0.9em;
+    padding: 0 0.5rem;
+}

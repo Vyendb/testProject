@@ -1,0 +1,181 @@
+﻿/*-------------------------GENERAL-------------------------*/
+
+body {
+    background: #f2f3eb;
+}
+
+h1 {
+    font-family: Khula;
+    font-size: 1.6em;
+    color: #738251;
+}
+
+p {
+    font-family: Avenir Book;
+    font-size: 1.3em;
+    color: #c45e1d;
+}
+
+.form-control {
+    border-color: #738251;
+    box-shadow: none !important;
+}
+
+.form-control:focus{
+    border-color: #738251;
+}
+
+/*-------------------------HEADER-------------------------*/
+
+.navbar {
+    background: #f2f3eb;
+    font-size: 1.4em;
+    margin: 1vh auto;
+    border: 1px #738251 solid;
+    border-radius: 9px;
+}
+
+.socialMedia a {
+    color: #000;
+    margin-left: 0.3em;
+    font-size: 1.9em;
+}
+
+.bi-twitter:hover, .bi-twitter:focus {
+    color: #00ACED;
+}
+
+.bi-github:hover, .github:focus {
+
+}
+
+.bi-facebook:hover, .bi-facebook:focus {
+    color: #3b5998;
+}
+
+.bi-instagram:hover, .bi-instagram:focus {
+    color: #E1306C;
+}
+
+.signIn, .signUp {
+    font-size: inherit;
+    padding: 0.5rem 0;
+}
+
+.btn-light, .btn-light:focus {
+    background-color: inherit;
+    border-color: #f2f3eb;
+    box-shadow: none;
+}
+
+.btn-light:hover {
+    background-color: inherit;
+    border-color: #738251;
+}
+
+/*.is-stuck {
+    background: blue !important;
+}*/
+
+/*-------------------------FOOTER-------------------------*/
+footer {
+    background: #fff7e4;
+}
+
+footer h5, footer h2 {
+    color: #738251;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .ecoBadgeLink, footer a:hover, footer a:focus {
+    color: #c45e1d;
+}
+
+/*-------------------------SIGN IN/SIGN UP MODAL-------------------------*/
+
+/*label {
+    To remove the spacing between the input forms
+    display: block;
+}*/
+
+/*.modal-dialog {
+    Custom width
+    max-width: 35em;
+}*/
+
+.modal-content {
+    border: none;
+    border-radius: 12px;
+}
+
+.tab-content {
+    padding: 1.2em;
+}
+
+.forgotPassLink:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+}
+
+.tos, .tos:hover, .policy, .policy:hover {
+    color: #c45e1d;
+}
+
+/* BUTTONS */
+.modal-body button {
+    background-color: #738251 !important;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.modal-body button[type=submit]:focus {
+    box-shadow: none;
+}
+
+/* TOP BUTTONS */
+.nav-pills .nav-link {
+    background-color: #738251 !important;
+    color: white;
+    border-radius: 0 !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fff !important;
+    color: black;
+    cursor: default;
+}
+
+/* CHECKBOXES */
+.modal-body input[type=checkbox] {
+    border-color: #738251;
+}
+
+.modal-body input[type=checkbox]:checked {
+    background-color: #738251;
+}
+
+.modal-body input[type=checkbox]:focus {
+    box-shadow: none;
+}
+
+/* FONT SIZE OF THE CONTENTS INSIDE THE MODAL */
+.modal-body .form-control {
+    font-size: 1.1rem;
+}
+
+.rememberMeLabel, .forgotPassTxt {
+    font-size: 1rem;
+}
+
+.restorePassHelperTxt {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #000;
+}

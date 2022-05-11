@@ -1,0 +1,59 @@
+.contactBody {
+    width: 36%;
+    padding: 2.5em;
+    margin: 4vh auto;
+    border: 2px solid #474544;
+    border-radius: 9px;
+}
+
+.supportIcon {
+    margin: 3vh 0;
+}
+
+#name_input, #email_input, #subject_input, #message_input {
+    width: 100%;
+    margin-bottom: 1.8em;
+    padding-bottom: 0.2em;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #474544;
+}
+
+.name {
+    float: left;
+    width: 42%;
+}
+
+.email {
+    float: right;
+    width: 42%;
+}
+
+#subject_input {
+    text-align: center;
+}
+
+#message_input {
+    border: 1px solid !important;
+    border-radius: 4px;
+    resize: none;
+}
+
+.tos, .tos:hover, .policy, .policy:hover {
+    color: #c45e1d;
+}
+
+#sendButton {
+    font-weight: bold;
+    background: none;
+    border: 2px #474544 solid;
+    border-radius: 9px;
+    outline: none;
+    padding: 0.5em 0.5em;
+}
+
+#sendButton:hover {
+    background: #474544;
+    color: white;
+}
