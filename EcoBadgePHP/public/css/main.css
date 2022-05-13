@@ -28,11 +28,19 @@ p {
 /*-------------------------HEADER-------------------------*/
 
 .navbar {
+    width: 72em;
+    max-width: 75%;
     background: #f2f3eb;
     font-size: 1.4em;
     margin: 1vh auto;
     border: 1px #738251 solid;
     border-radius: 9px;
+}
+
+.topContent{
+    width: 100em;
+    max-width: 75%;
+    margin: auto;
 }
 
 .socialMedia a {
@@ -112,7 +120,7 @@ footer .ecoBadgeLink, footer a:hover, footer a:focus {
     border-radius: 12px;
 }
 
-.tab-content {
+.signInUpModal .tab-content {
     padding: 1.2em;
 }
 
@@ -140,13 +148,13 @@ footer .ecoBadgeLink, footer a:hover, footer a:focus {
 }
 
 /* TOP BUTTONS */
-.nav-pills .nav-link {
+.signInUpModal .nav-pills .nav-link {
     background-color: #738251 !important;
     color: white;
     border-radius: 0 !important;
 }
 
-.nav-pills .nav-link.active {
+.signInUpModal .nav-pills .nav-link.active {
     background-color: #fff !important;
     color: black;
     cursor: default;

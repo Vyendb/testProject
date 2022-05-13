@@ -25,7 +25,7 @@
             '● Over 80% of waste is recycled. Business uses a food collection scheme<br>\n' +
             '● Business is carbon neutral<br>\n' +
             '● Business uses renewable energy">\n' +
-            '            <input class="form-check-input" type="checkbox" role="switch" id="mustHaveFilter">\n' +
+            '            <input class="form-check-input" type="checkbox" id="mustHaveFilter">\n' +
             '            <label class="form-check-label" for="mustHaveFilter">Must Have</label>\n' +
             '        </div>');
 

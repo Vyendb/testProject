@@ -33,7 +33,7 @@
                 <p class="small text-muted">Join our mailing list for eco conscious content</p>
                 <form action="#">
                     <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Your E-mail" aria-label="Recipient's username">
+                        <input class="form-control" type="text" placeholder="Your E-mail">
                         <button class="btn btn-outline-success" type="button">Subscribe</button>
                     </div>
                 </form>

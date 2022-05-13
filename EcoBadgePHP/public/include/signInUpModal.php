@@ -4,15 +4,15 @@
 
             <div class="modal-body p-0">
 
-                <div class="nav nav-pills d-flex" id="pills-tab" role="tablist">
-                    <button class="nav-link signInBtn flex-fill" data-bs-toggle="pill" data-bs-target=".signInPill" type="button" role="tab">Sign In</button>
-                    <button class="nav-link signUpBtn flex-fill" data-bs-toggle="pill" data-bs-target=".signUpPill" type="button" role="tab">Sign Up</button>
-                    <button class="nav-link restoreBtn d-none" data-bs-toggle="pill" data-bs-target=".restorePill" type="button" role="tab">Forgot your password?</button>
+                <div class="nav nav-pills d-flex" id="pills-tab">
+                    <button class="nav-link signInBtn flex-fill" data-bs-toggle="pill" data-bs-target=".signInPill" type="button">Sign In</button>
+                    <button class="nav-link signUpBtn flex-fill" data-bs-toggle="pill" data-bs-target=".signUpPill" type="button">Sign Up</button>
+                    <button class="nav-link restoreBtn d-none" data-bs-toggle="pill" data-bs-target=".restorePill" type="button">Forgot your password?</button>
                 </div>
 
                 <div class="tab-content">
 
-                    <div class="tab-pane signInPill" role="tabpanel">
+                    <div class="tab-pane signInPill">
                         <form>
                             <div>
                                 <label for="signInEmail" class="form-label"></label>
@@ -33,7 +33,7 @@
                         </form>
                     </div>
 
-                    <div class="tab-pane signUpPill" role="tabpanel">
+                    <div class="tab-pane signUpPill">
                         <form>
                             <div>
                                 <label for="signUpName" class="form-label"></label>
@@ -59,7 +59,7 @@
                         </form>
                     </div>
 
-                    <div class="tab-pane restorePill" role="tabpanel">
+                    <div class="tab-pane restorePill"a>
                         <p class="restorePassHelperTxt text-center">Please enter your email address in the field below.<br>You will receive a link to create a new password.</p>
                         <form>
                             <div class="mb-5">

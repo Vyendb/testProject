@@ -1,5 +1,6 @@
 .indexBody {
-    width: 60%;
+    width: 70em;
+    max-width: 60%;
     margin: 4vh auto;
 }
 

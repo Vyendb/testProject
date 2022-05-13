@@ -1,4 +1,4 @@
-<div class="topContent m-auto w-75">
+<div class="topContent">
     <img class="me-5" src="img/logos/long%20logo@4x.png" width="343.41" height="124.25" alt="bigBrandLogo"/>
 
     <div class="socialMedia d-inline">
@@ -9,17 +9,16 @@
     </div>
 </div>
 
-<nav class="navbar w-75 sticky-top navbar-expand-lg navbar-light shadow-sm">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light shadow-sm">
     <div class="container-fluid">
         <a class="navbar-brand p-0" href="#"><img src="img/logos/logo@4x.png" width="70" height="70" alt="smallBrandLogo"/></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link active" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="directory.php">Directory</a>

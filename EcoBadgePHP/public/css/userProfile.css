@@ -1,0 +1,65 @@
+.userProfileBody {
+    width: 75em;
+    max-width: 75%;
+    margin: 3em auto;
+    padding: 2%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.userProfileBody p{
+    font-size: 1em !important;
+}
+
+.profileIMG img {
+    width: 100%;
+    height: 100%;
+}
+
+.profileIMG .file {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profileIMG .file input {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.editProfileBTN {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8vh 1vw;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.imgCol, .socialsCol{
+    padding-right: 1.4vw;
+}
+
+.socialsCol, .infoCol{
+    padding-top: 4vh;
+}
+
+.socialsCol a{
+    color: inherit;
+    text-decoration: none;
+}
+.socialsCol a:hover{
+    color: #c45e1d;
+}
+
+.biographyTXT{
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 0.4rem;
+}

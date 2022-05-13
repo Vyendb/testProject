@@ -10,7 +10,7 @@
         <h1>Our Aims & Mission</h1>
         <p>Our mission is to create the tools needed to minimize the carbon footprint of the average consumer. Our vision is to eradicate unsustainable buying habits and business
             practices by supporting ethical consumption globally and building a community of gardeners who can, together, take care of this world we inhabit.
-            <a class="btn btn-outline-success" href="about.php" role="button">Find out more about EcoBadge</a></p>
+            <a class="btn btn-outline-success" href="about.php">Find out more about EcoBadge</a></p>
     </div>
 
     <div class="sustainability">
@@ -18,7 +18,7 @@
         <p>Text encouraging users to be more sustainable.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            <a class="btn btn-outline-success" href="directory.php" role="button">Search sustainable businesses in your local area</a></p>
+            <a class="btn btn-outline-success" href="directory.php">Search sustainable businesses in your local area</a></p>
     </div>
 
     <div class="impact">

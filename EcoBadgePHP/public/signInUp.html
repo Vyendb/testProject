@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
-    <script src="js/signInUp.js"></script>
     <title>Login System</title>
 </head>
 <body>
-<div class="formContainer">
+<!-- <div class="formContainer">
     <h1>Enter Credentials Here:</h1>
     <input type="email" placeholder="email here" id="email"><br>
     <input type="password" placeholder="password here" id="password"><br>
     <button onclick="signUp()" id="signUp">SignUp</button>
-    <button onclick="signIn()" id="signIp">SignIn</button>
+    <button onclick="signIn()" id="signIp">SignIn</button>>
+</div> -->
+<div id="form_content_container">
+    <div id="form_content_inner_container">
+        <input type="text" id="full_name" placeholder="Full name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="New Password">
+
+        <input type="text" id="favourite_song" placeholder="The Best Song Ever">
+        <input type="text" id="milk_before_cereal" placeholder="Milk Before Cereal? ( Yes | No )">
+
+        <div id="button_container">
+            <button onclick="signIn()">Login</button>
+            <button onclick="signUp()">Register</button>
+        </div>
+
+    </div>
 </div>
-
-
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+<script src="js/signInUp2.js"></script>
+
 </html>
